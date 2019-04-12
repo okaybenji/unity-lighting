@@ -620,6 +620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436741353}
   - component: {fileID: 1436741352}
+  - component: {fileID: 1436741354}
   m_Layer: 0
   m_Name: Green Spotlight
   m_TagString: Untagged
@@ -679,6 +680,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1436741354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436741351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ed48ae935d8497d88e9954aa17fc8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 449991033}
+  min: 0.75
+  multiplier: 0.67
 --- !u!1 &1816336069 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 25e3ab2d6992a48f3ab7455baed062e0,
