@@ -908,7 +908,7 @@ GameObject:
   - component: {fileID: 2145623986}
   - component: {fileID: 2145623985}
   m_Layer: 0
-  m_Name: Pink Door (1)
+  m_Name: Pink Static
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
